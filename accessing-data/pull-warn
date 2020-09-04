@@ -1,0 +1,5 @@
+#!/bin/bash
+# cp /var/logs/messages /root/scripting-repo/accessing-data
+# Pulling error message from /var/logs/messages
+
+grep -i warn /root/scripting-repo/accessing-data
