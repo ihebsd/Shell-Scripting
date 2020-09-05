@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+total=`ls -l folder* | wc -l`
+
+
+echo It will take $total seconds to assign permissions...
+
+
+echo
+
+
+for i in folder*
+
+
+do
+
+
+	echo Assigning write permissions to $i
+
+
+	chmod a+w $i
+	
+
+sleep 1
+
+
+done

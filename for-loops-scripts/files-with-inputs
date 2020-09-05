@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+echo How many files do you want?
+
+
+read num
+
+
+echo
+
+
+echo Files names should start with?
+
+
+read name
+
+for i in $(seq 1 $num)
+
+
+do
+
+
+	touch $name.$i
+
+
+done
